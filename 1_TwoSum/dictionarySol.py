@@ -1,8 +1,8 @@
 '''
 This is the dictionary/hashmap solution for the two-sum problem. 
-The main idea here is to have an auxiliary dictionary that stores every element in the array as a key and their indexes as values. 
+The main idea here is to have an auxiliary dictionary that stores every element in the array as a key and its indexes as values. 
 For every element, calculate the element that is needed for the sum to add up to the target (needed = target - element). 
-Then, check to see if the element is already in the auxiliary dictionary. 
+Then, check if the element is already in the auxiliary dictionary. 
 If it is, return the element's index and the value of the key needed in the dictionary. If it isn't, just add the element to the dictionary.
 '''
 class Solution(object):
