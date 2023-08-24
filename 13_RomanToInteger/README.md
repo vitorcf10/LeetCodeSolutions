@@ -15,3 +15,5 @@ For this create a dictionary that stores as keys the Roman char and as values it
 This approach is slightly better than the previous one because it has fewer if statements, even though the time complexity is the same.
 <br/><br/> _Time Complexity:_ O(n), iterates through every single element of the input string once.
 <br/> _Space Complexity_ O(m), needs an auxiliary dictionary of size 'm', where 'm' is number of possible chars in the input string.
+<br />
+**Note:** For more details on each solution, please refer to their respective code; they are all extensively commented.
