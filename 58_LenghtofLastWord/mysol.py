@@ -17,5 +17,5 @@ class Solution(object):
             i-=1 # Decrement counter
         if i == -len(s): # If the length of counter is equal to the length of string
             return(abs(i)) # Return the absolute value from the counter, meaning the input string is a sigle word.
-        else: # If there is more than one word in the string
+        else: # If there is more than one word in the string.
             return(abs(i+1)) # Return the absolute value of negative counter + 1, this way taking away the blank space count.
